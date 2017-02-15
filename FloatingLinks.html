@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> 
+<style>
+div.relative {
+    position: relative;
+    width: 425px;
+    height: 1000px;
+    border: 0px solid #73AD21;
+} 
+
+div.absolute {
+    position: absolute;
+    top: 310px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    border: 0px solid #73AD21;
+}
 html { 
   background: url(https://p36-mailws.icloud.com/wm/messagepart/image1.JPEG?guid=messagepart%3AINBOX%2F4735-1&type=image%2Fjpeg&uniq=gabby.smith&name=image1.JPEG&size=64930&dsid=1032560534&clientId=D82BC19D-FBF1-4445-901A-D5D8B712B844) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: scroll
+  overflow: scroll;
 }
-<DIV style="position: absolute; top:80px; left:400px; width:200px; height:25px"><a href="http://www.w3schools.com/html/">About</a></DIV>
 </style>
 </head>
 <body>
 <div id="myDIV">
+<div class="relative">
+  <div class="absolute"><h1 style="color:white;"> <a href="https://the4femalians.github.io/Final_Project/muse.info.html">About</a></h1></div>
 </div>
+
+
 
 </body>
 </html>
